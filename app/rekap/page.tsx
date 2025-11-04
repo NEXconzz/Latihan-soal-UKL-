@@ -21,7 +21,6 @@ export default function RekapPage() {
       return;
     }
 
-    // 🧩 Data dummy rekap (biasanya diambil dari backend)
     const dummyRekap: RekapData = {
       hadir: 18,
       izin: 2,
