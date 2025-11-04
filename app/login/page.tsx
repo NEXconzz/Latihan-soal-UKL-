@@ -46,7 +46,7 @@ export default function LoginPage() {
         </h1>
 
         <form onSubmit={handleLogin} className="flex flex-col gap-4 text-left">
-          {/* Username Field */}
+          {/* Username */}
           <div className="relative">
             <span className="absolute left-3 top-2.5 text-gray-400">👤</span>
             <input
@@ -58,7 +58,7 @@ export default function LoginPage() {
             />
           </div>
 
-          {/* Password Field */}
+          {/* Password */}
           <div className="relative">
             <span className="absolute left-3 top-2.5 text-gray-400">🔒</span>
             <input
@@ -94,12 +94,10 @@ export default function LoginPage() {
             </span>
           </div>
 
-          {/* Error Message */}
           {error && (
             <p className="text-red-500 text-sm text-center mt-2">{error}</p>
           )}
-
-          {/* Login Button */}
+          
           <button
             type="submit"
             disabled={loading}
