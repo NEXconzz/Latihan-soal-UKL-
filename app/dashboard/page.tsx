@@ -56,7 +56,7 @@ export default function DashboardPage() {
           <p className="text-gray-500 mt-2">{today}</p>
         </div>
 
-        {/* Presensi Section */}
+        {/* Presensi */}
         <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-2xl shadow-inner mb-6">
           <h2 className="text-xl font-semibold text-gray-700 mb-3">
             Presensi Hari Ini
@@ -76,7 +76,7 @@ export default function DashboardPage() {
           )}
         </div>
 
-        {/* Navigasi */}
+        
         <div className="flex justify-between">
           <button
             onClick={() => router.push("/riwayat")}
