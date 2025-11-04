@@ -82,7 +82,6 @@ export default function RiwayatPresensi() {
           </table>
         </div>
 
-        {/* Tombol Kembali */}
         <div className="text-center mt-8">
           <button
             onClick={() => router.push("/dashboard")}
